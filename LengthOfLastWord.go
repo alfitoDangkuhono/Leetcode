@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func LengthOfLastWord(s string) int {
 
 	var char_flag bool // digunakan untuk trigger jika sudah menemukan karakter bukan spasi
@@ -18,8 +16,4 @@ func LengthOfLastWord(s string) int {
 		}
 	}
 	return length
-}
-
-func main() {
-	fmt.Println(LengthOfLastWord("Hello Worl d "))
 }
