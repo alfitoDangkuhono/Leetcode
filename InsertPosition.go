@@ -18,7 +18,7 @@ func searchInsert(nums []int, target int) int {
 		}
 	}
 	// checking value target when not found in array and setting position value with compare value target with value array
-	if isNone == true {
+	if isNone {
 		for i := 0; i < len(nums); i++ {
 			// compare and setting position value with value target
 			if target < nums[i] {
