@@ -13,6 +13,6 @@ func main() {
 	insertPosition := searchInsert(array[:], 6)
 	LengthOfLastWord := LengthOfLastWord("Hello World")
 
-	fmt.Println("Insert Position " + strconv.Itoa(insertPosition))
-	fmt.Println("Length Of Last Word " + strconv.Itoa(LengthOfLastWord))
+	fmt.Println("Insert Position ", strconv.Itoa(insertPosition))
+	fmt.Println("Length Of Last Word ", strconv.Itoa(LengthOfLastWord))
 }
